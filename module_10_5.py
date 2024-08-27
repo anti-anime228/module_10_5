@@ -1,7 +1,6 @@
 import multiprocessing
 import datetime
 
-# file_list = ['file 1.txt', 'file 2.txt', 'file 3.txt', 'file 4.txt']
 file_list = [f'./file {number}.txt' for number in range(1, 5)]
 
 
