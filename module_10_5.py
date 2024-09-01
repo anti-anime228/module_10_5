@@ -23,8 +23,8 @@ def read_info(name):
     return all_data
 
 # if __name__ == "__main__":
+#     start = datetime.datetime.now()
 #     with multiprocessing.Pool(processes=4) as pool:
-#         start = datetime.datetime.now()
 #         pool.map(read_info, file_list)
 #     end = datetime.datetime.now()
 #     print(end - start)
